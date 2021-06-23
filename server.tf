@@ -21,7 +21,7 @@ policy_bucket =  [ {
   class_id = ""
   additional_properties = ""
   selector = "" 
-}
+},
 { moid = intersight_boot_precision_policy.moid
 object_type = "boot.Policy"
 class_id = ""
