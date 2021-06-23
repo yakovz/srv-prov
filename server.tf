@@ -7,7 +7,7 @@ data "intersight_compute_rack_unit" "myname" {
 
 
 resource "intersight_server_profile" "mysp" {
-    action = "No-op"
+   # action = "Deploy"
     name = "kuku"
 
 tags {
