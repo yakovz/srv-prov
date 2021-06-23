@@ -14,6 +14,10 @@ tags {
   key = "Owner"
   value = "yshtoots"
 }
+tags {
+  key = "Location"
+  value = "NTN-SUPERLAB"
+}
 organization {
     object_type = "organization.Organization"
     moid = data.intersight_organization_organization.default.results[0].moid
