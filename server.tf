@@ -23,7 +23,7 @@ policy_bucket =  [ {
   selector = "" 
 },
 { moid = intersight_boot_precision_policy.boot-tf-demo.moid
-object_type = "boot.Policy"
+object_type = "boot.PrecisionPolicy"
 class_id = ""
 additional_properties = ""
 selector = ""
