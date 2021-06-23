@@ -3,7 +3,7 @@ variable "api_key" {
   description = "API Key Id from Intersight"
 }
 
-variable "secretkey_file" {
+variable "secretkey" {
   type = string
   description = "Secret Key File Path"
 }

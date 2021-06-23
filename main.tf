@@ -9,7 +9,7 @@ terraform {
 
 provider "intersight" {
   apikey = var.api_key
-  secretkey = var.secretkey_file
+  secretkey = var.secretkey
   endpoint = var.endpoint
 }
 
