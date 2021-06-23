@@ -10,6 +10,10 @@ resource "intersight_server_profile" "mysp" {
     action = "No-op"
     name = "kuku"
 
+tags {
+  key = "Owner"
+  value = "yshtoots"
+}
 organization {
     object_type = "organization.Organization"
     moid = data.intersight_organization_organization.default.results[0].moid
