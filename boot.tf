@@ -43,3 +43,4 @@ resource "intersight_boot_precision_policy" "boot-tf-demo" {
       }
     })
   }
+}
