@@ -5,7 +5,7 @@ resource "intersight_boot_precision_policy" "boot-tf-demo" {
   enforce_uefi_secure_boot = false
   organization {
     object_type = "organization.Organization"
-    moid        = var.organization
+    moid = data.intersight_organization_organization.default.results[0].moid
   }
   boot_devices {
     enabled     = true
