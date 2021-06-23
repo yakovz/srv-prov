@@ -40,8 +40,9 @@ assigned_server  {
 
 
 }
-
+/*
 output "tete" {
 
 value = intersight_server_profile.mysp
 }
+*/
