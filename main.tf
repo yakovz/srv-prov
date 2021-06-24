@@ -13,7 +13,8 @@ provider "intersight" {
   endpoint = var.endpoint
 }
 
+/*
 data "intersight_organization_organization" "default" {
   name = "default"
 }
-
+*/
