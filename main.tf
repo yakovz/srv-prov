@@ -2,7 +2,7 @@ terraform {
   required_providers {
     intersight = {
       source = "CiscoDevNet/intersight"
-      version = "1.0.11"
+      version = "1.0.10"
     }
   }
 }
@@ -14,7 +14,7 @@ provider "intersight" {
 }
 
 
-data "intersight_organization_organization" "default" {
+data "intersight_organization_Organization" "default" {
   name = "default"
 }
 
