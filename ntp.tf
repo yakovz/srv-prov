@@ -7,6 +7,13 @@ resource "intersight_ntp_policy" "ntp-tf-demo" {
     "192.168.28.11"
   ]
 
+  organization {
+    object_type = "organization.Organization"
+    moid = data.intersight_organization_organization.default.results[0].moid
+  }
+
+  
+  
 }
 
 #output "test" {
